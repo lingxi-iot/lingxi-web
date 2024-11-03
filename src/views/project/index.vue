@@ -15,10 +15,10 @@
             </el-row>
 
             <el-row style="height: 50px; justify-content: center; margin-top: 50px">
-              <el-text style="font-size: 24px">你好，我是灵犀助手</el-text>
+              <el-text style="font-size: 24px">{{ $t('project.index.493980-0') }}</el-text>
             </el-row>
             <el-row style="margin: 20px">
-              作为你的智能伙伴，我既能写文案、想点子，又能陪你聊天、答疑解惑。
+              {{ $t('project.index.493980-1') }}
             </el-row>
             <el-row>
               <el-col :span="8" style="padding: 10px">
@@ -27,28 +27,28 @@
               <el-col :span="8" style="padding: 10px; background-color: #fff">
                 <el-row>
                   <el-text style="font-size: 12pt; font-weight: 600"
-                    >支持何种品牌？</el-text
+                    >{{ $t('project.index.493980-2') }}</el-text
                   >
                 </el-row>
                 <el-row style="margin-top: 15px; font-size: 12pt">
-                  目前已经支持海康、大华、宇视等大概10多种300多个型号的国标协议摄像头接入
+                  {{ $t('project.index.493980-3') }}
                 </el-row>
               </el-col>
               <el-col :span="8" style="padding: 10px; background-color: #eee"
                 ><el-row>
                   <el-text style="font-size: 12pt; font-weight: 600"
-                    >如何更高效？</el-text
+                    >{{ $t('project.index.493980-4') }}</el-text
                   >
                 </el-row>
                 <el-row style="margin-top: 15px; font-size: 12pt">
-                  有具体的指向性，可以举例说明的，场景描述更加准确的
+                  {{ $t('project.index.493980-5') }}
                 </el-row></el-col
               >
             </el-row>
             <el-row style="height: 600px"></el-row>
             <el-row style="height: 50px">
               <el-affix position="bottom" :offset="50">
-                <el-input placeholder="请输入你的问题" style="height: 100px; width: 550px"
+                <el-input :placeholder="$t('project.index.493980-6')" style="height: 100px; width: 550px"
                   ><template #suffix>
                     <el-icon size="large"><Service /></el-icon> </template
                 ></el-input>
@@ -65,8 +65,8 @@ import projectLeft from "@/views/project/p_left.vue";
 import projectMain from "@/views/project/p_main.vue";
 import { ref } from "vue";
 
-const segvalue = ref("文心一言");
-const segoptions = ["文心一言", "通义千问", "盘古大模型", "Lambda 3"];
+const segvalue = ref(this.$t('project.index.493980-7'));
+const segoptions = [this.$t('project.index.493980-7'), this.$t('project.index.493980-8'), this.$t('project.index.493980-9'), "Lambda 3"];
 const rightaside = ref();
 const popoverVisible = ref(0);
 popoverVisible.value = false;

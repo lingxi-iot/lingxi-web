@@ -16,14 +16,14 @@
           >
             <img src="@/assets/images/logo.png" alt="" />
             <el-text style="font-size: 18pt; color: #eeeeee; font-weight: 600">
-              灵犀物联</el-text
+              {{$t('global.title')}}</el-text
             >
           </el-form-item>
           <el-form-item label="" style="font-size: 16pt" label-position="top">
             <el-input
               style="width: 100%; height: 50px"
               prefix-icon="User"
-              placeholder="请输入用户名/手机号"
+              :placeholder="$t('views.login.332421-0')"
             />
           </el-form-item>
           <el-form-item label="" label-position="top">
@@ -31,7 +31,7 @@
               style="width: 100%; height: 50px"
               prefix-icon="Hide"
               type="password"
-              placeholder="请输入密码"
+              :placeholder="$t('views.login.332421-1')"
             />
           </el-form-item>
           <el-form-item>
@@ -47,7 +47,7 @@
                 background: linear-gradient(45deg, #597df9, #ba98f2);
               "
               @click="dologin"
-              >登录</el-button
+              >{{ $t('views.login.332421-2') }}</el-button
             >
           </el-form-item>
         </el-form>
@@ -57,6 +57,9 @@
 </template>
 <script lang="ts" setup>
 import { useRouter } from "vue-router";
+// import { useI18n } from "vue-i18n";
+// const { t } =useI18n();
+
 const router = useRouter();
 
 function dologin() {

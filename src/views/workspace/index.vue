@@ -5,16 +5,16 @@
         <workspaceLeft />
       </el-aside>
       <el-main style="height: 100vh">
-        <el-text style="font-size: 24pt; margin: 50px">欢迎来到灵犀空间</el-text>
+        <el-text style="font-size: 24pt; margin: 50px">{{ $t('workspace.index.236728-0') }}</el-text>
         <el-divider />
         <workspaceCreate />
         <el-row style="width: 100%; height: 100px">
-          <el-text style="font-size: large">我的工程</el-text>
+          <el-text style="font-size: large">{{ $t('workspace.index.236728-1') }}</el-text>
         </el-row>
         <el-row style="width: 100%">
           <el-tabs class="demo-tabs" v-model="activeName">
             <el-tab-pane
-              label="我创建的"
+              :label="$t('workspace.index.236728-2')"
               name="first"
               style="display: flex; flex-wrap: wrap"
             >
@@ -26,7 +26,7 @@
                 />
                 <template #footer>
                   <el-row>
-                    <el-col :span="18">智慧办公</el-col>
+                    <el-col :span="18">{{ $t('workspace.index.236728-3') }}</el-col>
                     <el-col :span="6" style="text-align: right">
                       <el-icon><MoreFilled /></el-icon>
                     </el-col>
@@ -34,7 +34,7 @@
                 </template>
               </el-card>
             </el-tab-pane>
-            <el-tab-pane label="我参与的" name="second">Config</el-tab-pane>
+            <el-tab-pane :label="$t('workspace.index.236728-4')" name="second">Config</el-tab-pane>
           </el-tabs></el-row
         >
       </el-main>

@@ -1,0 +1,22 @@
+{
+	"zh": {
+		"workspace.w_left.202501-0": "灵犀物联",
+		"workspace.w_left.202501-1": "首页",
+		"workspace.w_left.202501-2": "我的工程",
+		"workspace.w_left.202501-3": "我的设计",
+		"workspace.w_left.202501-4": "本地仓库",
+		"workspace.w_left.202501-5": "灵犀云仓（352/678242）",
+		"workspace.w_left.202501-6": "社区开源版",
+		"workspace.w_left.202501-7": "已使用 2个，剩余 3个 空闲"
+	},
+	"en": {
+		"workspace.w_left.202501-0": "Lingxi IoT",
+		"workspace.w_left.202501-1": "home page",
+		"workspace.w_left.202501-2": "My project",
+		"workspace.w_left.202501-3": "My design",
+		"workspace.w_left.202501-4": "Local warehouse",
+		"workspace.w_left.202501-5": "Lingxi Cloud Warehouse (352/678242)",
+		"workspace.w_left.202501-6": "Community Open Source Version",
+		"workspace.w_left.202501-7": "2 have been used, with 3 remaining idle"
+	}
+}

@@ -1,7 +1,7 @@
 <template>
   <div class="p-main">
     <el-row style="height: 50px; width: 100%; font-size: 24pt; padding-left: 20px"
-      >欢迎使用智慧大棚系统</el-row
+      >{{ $t('project.p_main.493991-0') }}</el-row
     >
     <el-divider />
     <el-row style="width: 100%; height: 100px">
@@ -11,7 +11,7 @@
         @click="newSence()"
       >
         <el-icon><Plus /></el-icon>
-        <el-text style="font-size: 12pt; margin-left: 10px">创建场景</el-text>
+        <el-text style="font-size: 12pt; margin-left: 10px">{{ $t('project.p_main.493991-1') }}</el-text>
       </el-card>
       <el-card
         class="newcard"
@@ -19,7 +19,7 @@
         @click="newdesgin()"
       >
         <el-icon><Plus /></el-icon>
-        <el-text style="font-size: 12pt; margin-left: 10px">创建设备</el-text>
+        <el-text style="font-size: 12pt; margin-left: 10px">{{ $t('project.p_main.493991-2') }}</el-text>
       </el-card>
       <el-card
         class="newcard"
@@ -27,15 +27,15 @@
         @click="newwarehouse()"
       >
         <el-icon><Plus /></el-icon>
-        <el-text style="font-size: 12pt; margin-left: 10px">创建点位</el-text>
+        <el-text style="font-size: 12pt; margin-left: 10px">{{ $t('project.p_main.493991-3') }}</el-text>
       </el-card>
     </el-row>
     <el-row
       style="height: 100px; padding-left: 20px; display: flex; align-items: flex-end"
     >
-      <el-text style="font-size: 18pt">工程场景</el-text>
+      <el-text style="font-size: 18pt">{{ $t('project.p_main.493991-4') }}</el-text>
       <el-text style="font-size: 10pt; margin-left: 20px; color: #fff"
-        >设备 / 数据 / 逻辑 / 可视化 / 应用</el-text
+        >{{ $t('project.p_main.493991-5') }}</el-text
       >
     </el-row>
     <el-row
@@ -62,7 +62,7 @@
             justify-content: center;
           "
         >
-          <el-text style="font-size: 10pt">产品 / 物模型</el-text>
+          <el-text style="font-size: 10pt">{{ $t('project.p_main.493991-6') }}</el-text>
         </el-row>
         <el-row
           style="width: 100%; display: flex; align-items: center; justify-content: center"
@@ -85,7 +85,7 @@
             justify-content: center;
           "
         >
-          <el-text style="font-size: 10pt">数据源 / API</el-text>
+          <el-text style="font-size: 10pt">{{ $t('project.p_main.493991-7') }}</el-text>
         </el-row>
         <el-row
           style="width: 100%; display: flex; align-items: center; justify-content: center"
@@ -108,7 +108,7 @@
             justify-content: center;
           "
         >
-          <el-text style="font-size: 10pt">设备 / 采集点位</el-text>
+          <el-text style="font-size: 10pt">{{ $t('project.p_main.493991-8') }}</el-text>
         </el-row>
         <el-row
           style="width: 100%; display: flex; align-items: center; justify-content: center"
@@ -131,7 +131,7 @@
             justify-content: center;
           "
         >
-          <el-text style="font-size: 10pt">数字孪生 / 组态 / 仪表盘</el-text>
+          <el-text style="font-size: 10pt">{{ $t('project.p_main.493991-9') }}</el-text>
         </el-row>
         <el-row
           style="width: 100%; display: flex; align-items: center; justify-content: center"
@@ -143,7 +143,7 @@
     <el-row
       style="height: 100px; padding-left: 20px; display: flex; align-items: flex-end"
     >
-      <el-text style="font-size: 20pt">视频教程</el-text>
+      <el-text style="font-size: 20pt">{{ $t('project.p_main.493991-10') }}</el-text>
     </el-row>
     <el-row>
       <el-card style="margin-left: 20px">
@@ -167,51 +167,51 @@
         <el-image src="/img/jpg/model.jpg" style="height: 200px"></el-image>
       </el-card>
     </el-row>
-    <el-dialog v-model="dialogSence" title="创建新场景" width="830px">
+    <el-dialog v-model="dialogSence" :title="$t('project.p_main.493991-11')" width="830px">
       <el-row class="dialogSenceCss">
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">设备接入</el-text>
+          <el-text width="100%">{{ $t('project.p_main.493991-12') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">数据接入</el-text>
+          <el-text width="100%">{{ $t('project.p_main.493991-13') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo"> </el-image>
-          <el-text width="100%">API接入</el-text>
+          <el-text width="100%">{{ $t('project.p_main.493991-14') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo"> </el-image>
-          <el-text width="100%">视频接入</el-text>
+          <el-text width="100%">{{ $t('project.p_main.493991-15') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo"> </el-image>
-          <el-text width="100%">人工智能</el-text>
+          <el-text width="100%">{{ $t('project.p_main.493991-16') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">采集点位</el-text>
+          <el-text width="100%">{{ $t('project.p_main.493991-17') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo"> </el-image>
-          <el-text width="100%">规则引擎</el-text>
+          <el-text width="100%">{{ $t('project.p_main.493991-18') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo"> </el-image>
-          <el-text width="100%">数字孪生</el-text>
+          <el-text width="100%">{{ $t('project.p_main.493991-19') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">工业组态</el-text>
+          <el-text width="100%">{{ $t('project.p_main.493991-20') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">仪表盘</el-text>
+          <el-text width="100%">{{ $t('project.p_main.493991-21') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">互联应用</el-text>
+          <el-text width="100%">{{ $t('project.p_main.493991-22') }}</el-text>
         </el-card>
       </el-row>
     </el-dialog>

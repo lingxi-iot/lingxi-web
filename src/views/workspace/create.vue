@@ -6,7 +6,7 @@
       @click="newproject()"
     >
       <el-icon><Plus /></el-icon>
-      <el-text style="font-size: 12pt; margin-left: 10px">创建工程</el-text>
+      <el-text style="font-size: 12pt; margin-left: 10px">{{ $t('workspace.create.202500-0') }}</el-text>
     </el-card>
     <el-card
       class="newcard"
@@ -14,7 +14,7 @@
       @click="newdesgin()"
     >
       <el-icon><Plus /></el-icon>
-      <el-text style="font-size: 12pt; margin-left: 10px">创建设计</el-text>
+      <el-text style="font-size: 12pt; margin-left: 10px">{{ $t('workspace.create.202500-1') }}</el-text>
     </el-card>
     <el-card
       class="newcard"
@@ -22,166 +22,166 @@
       @click="newwarehouse()"
     >
       <el-icon><Plus /></el-icon>
-      <el-text style="font-size: 12pt; margin-left: 10px">上传云仓</el-text>
+      <el-text style="font-size: 12pt; margin-left: 10px">{{ $t('workspace.create.202500-2') }}</el-text>
     </el-card>
   </el-row>
-  <el-dialog v-model="dialogProject" title="创建工程" width="830px">
+  <el-dialog v-model="dialogProject" :title="$t('workspace.create.202500-0')" width="830px">
     <el-tabs v-model="activeNameProject">
-      <el-tab-pane label="场景向导" class="guide" name="first">
+      <el-tab-pane :label="$t('workspace.create.202500-3')" class="guide" name="first">
         <el-card class="dialogCard" shadow="never" @click="newBlankProject()">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">空工程</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-4') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">设备接入</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-5') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">数据接入</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-6') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo"> </el-image>
-          <el-text width="100%">API接入</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-7') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo"> </el-image>
-          <el-text width="100%">视频接入</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-8') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo"> </el-image>
-          <el-text width="100%">人工智能</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-9') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">采集点位</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-10') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo"> </el-image>
-          <el-text width="100%">规则引擎</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-11') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo"> </el-image>
-          <el-text width="100%">数字孪生</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-12') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">工业组态</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-13') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">仪表盘</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-14') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">互联应用</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-15') }}</el-text>
         </el-card>
       </el-tab-pane>
-      <el-tab-pane label="示例工程" class="guide" name="second">
+      <el-tab-pane :label="$t('workspace.create.202500-16')" class="guide" name="second">
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">智慧园区</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-17') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">智慧楼宇</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-18') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">大棚养殖</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-19') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">智能会议</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-20') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">物联网医院</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-21') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">燃气供暖</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-22') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">数字展厅</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-23') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">数字乡村</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-24') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">智慧校园</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-25') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">节能照明</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-26') }}</el-text>
         </el-card>
       </el-tab-pane>
     </el-tabs>
   </el-dialog>
-  <el-dialog v-model="dialogDesign" title="创建设计" width="830px">
+  <el-dialog v-model="dialogDesign" :title="$t('workspace.create.202500-1')" width="830px">
     <el-tabs v-model="activeNameDesign">
-      <el-tab-pane label="设计向导" class="guide" name="first">
+      <el-tab-pane :label="$t('workspace.create.202500-27')" class="guide" name="first">
         <el-card class="dialogCard" shadow="never" @click="newProduct()">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
           <el-text width="100%">产&nbsp;品</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">物模型</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-29') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo"> </el-image>
-          <el-text width="100%">生产厂商</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-30') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo"> </el-image>
-          <el-text width="100%">硬件设备</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-31') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo"> </el-image>
-          <el-text width="100%">网络通道</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-32') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo"> </el-image>
-          <el-text width="100%">存储介质</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-33') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" src="/dns-svgrepo-com.svg">
           </el-image>
-          <el-text width="100%">规则插件</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-34') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">数据库驱动</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-35') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">2D模型</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-36') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo"> </el-image>
-          <el-text width="100%">3D模型</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-37') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">组态模型</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-38') }}</el-text>
         </el-card>
       </el-tab-pane>
-      <el-tab-pane label="示例设计" class="guide" name="second">
+      <el-tab-pane :label="$t('workspace.create.202500-39')" class="guide" name="second">
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">海康门禁</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-40') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">大华门禁</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-41') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">门禁物模型</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-42') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
@@ -193,7 +193,7 @@
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">本地存储</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-43') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
@@ -201,15 +201,15 @@
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">摄像头3D</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-44') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">饼状图</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-45') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">断路器</el-text>
+          <el-text width="100%">{{ $t('workspace.create.202500-46') }}</el-text>
         </el-card>
       </el-tab-pane>
     </el-tabs>

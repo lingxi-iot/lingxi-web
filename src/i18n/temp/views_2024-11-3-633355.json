@@ -1,0 +1,12 @@
+{
+	"zh": {
+		"views.login.332421-0": "请输入用户名/手机号",
+		"views.login.332421-1": "请输入密码",
+		"views.login.332421-2": "登录"
+	},
+	"en": {
+		"views.login.332421-0": "Please enter username/phone number",
+		"views.login.332421-1": "Please input a password",
+		"views.login.332421-2": "Sign in"
+	}
+}

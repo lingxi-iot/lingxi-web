@@ -13,7 +13,7 @@
       </el-col>
       <el-col :span="16" style="display: flex; align-items: center; flex-wrap: wrap">
         <el-row style="width: 100%">
-          <el-text style="font-weight: bold">智慧大棚</el-text>
+          <el-text style="font-weight: bold">{{ $t('project.p_left.493992-0') }}</el-text>
         </el-row>
         <el-row style="width: 100%">
           <el-text size="small">Smart Greenhouse</el-text>
@@ -32,7 +32,7 @@
               iconName="icon-home"
               style="width: 20px; height: 20px; margin-right: 10px"
             />
-            首页
+            {{ $t('project.p_left.493992-1') }}
           </template>
         </el-menu-item>
         <el-sub-menu index="2">
@@ -41,11 +41,11 @@
               iconName="icon-project"
               style="width: 20px; height: 20px; margin-right: 10px"
             />
-            设备管理
+            {{ $t('project.p_left.493992-2') }}
           </template>
-          <el-menu-item index="2-1">设备资产</el-menu-item>
-          <el-menu-item index="2-2">产品/物模型</el-menu-item>
-          <el-menu-item index="2-3">监控/日志</el-menu-item>
+          <el-menu-item index="2-1">{{ $t('project.p_left.493992-3') }}</el-menu-item>
+          <el-menu-item index="2-2">{{ $t('project.p_left.493992-4') }}</el-menu-item>
+          <el-menu-item index="2-3">{{ $t('project.p_left.493992-5') }}</el-menu-item>
         </el-sub-menu>
         <el-sub-menu index="3">
           <template #title>
@@ -53,11 +53,11 @@
               iconName="icon-design"
               style="width: 20px; height: 20px; margin-right: 10px"
             />
-            采集点位
+            {{ $t('project.p_left.493992-6') }}
           </template>
-          <el-menu-item index="3-1">采集通道</el-menu-item>
-          <el-menu-item index="3-2">采集点位</el-menu-item>
-          <el-menu-item index="3-3">设备映射</el-menu-item>
+          <el-menu-item index="3-1">{{ $t('project.p_left.493992-7') }}</el-menu-item>
+          <el-menu-item index="3-2">{{ $t('project.p_left.493992-6') }}</el-menu-item>
+          <el-menu-item index="3-3">{{ $t('project.p_left.493992-8') }}</el-menu-item>
         </el-sub-menu>
         <el-sub-menu index="6">
           <template #title>
@@ -65,12 +65,12 @@
               iconName="icon-storage"
               style="width: 20px; height: 20px; margin-right: 10px"
             />
-            数据整合
+            {{ $t('project.p_left.493992-9') }}
           </template>
-          <el-menu-item index="6-1">数据接入</el-menu-item>
-          <el-menu-item index="6-2">API接入</el-menu-item>
-          <el-menu-item index="6-3">视频接入</el-menu-item>
-          <el-menu-item index="6-3">人工智能</el-menu-item>
+          <el-menu-item index="6-1">{{ $t('project.p_left.493992-10') }}</el-menu-item>
+          <el-menu-item index="6-2">{{ $t('project.p_left.493992-11') }}</el-menu-item>
+          <el-menu-item index="6-3">{{ $t('project.p_left.493992-12') }}</el-menu-item>
+          <el-menu-item index="6-3">{{ $t('project.p_left.493992-13') }}</el-menu-item>
         </el-sub-menu>
         <el-sub-menu index="7">
           <template #title>
@@ -78,11 +78,11 @@
               iconName="icon-storage"
               style="width: 20px; height: 20px; margin-right: 10px"
             />
-            数据可视化
+            {{ $t('project.p_left.493992-14') }}
           </template>
-          <el-menu-item index="7-1">数据孪生</el-menu-item>
-          <el-menu-item index="7-2">工业组态</el-menu-item>
-          <el-menu-item index="7-3">仪表盘</el-menu-item>
+          <el-menu-item index="7-1">{{ $t('project.p_left.493992-15') }}</el-menu-item>
+          <el-menu-item index="7-2">{{ $t('project.p_left.493992-16') }}</el-menu-item>
+          <el-menu-item index="7-3">{{ $t('project.p_left.493992-17') }}</el-menu-item>
         </el-sub-menu>
         <el-sub-menu index="8">
           <template #title>
@@ -90,12 +90,12 @@
               iconName="icon-storage"
               style="width: 20px; height: 20px; margin-right: 10px"
             />
-            互联应用
+            {{ $t('project.p_left.493992-18') }}
           </template>
-          <el-menu-item index="8-1">应用管理</el-menu-item>
-          <el-menu-item index="8-2">授权控制</el-menu-item>
-          <el-menu-item index="8-3">订阅推送</el-menu-item>
-          <el-menu-item index="6-4">规则引擎</el-menu-item>
+          <el-menu-item index="8-1">{{ $t('project.p_left.493992-19') }}</el-menu-item>
+          <el-menu-item index="8-2">{{ $t('project.p_left.493992-20') }}</el-menu-item>
+          <el-menu-item index="8-3">{{ $t('project.p_left.493992-21') }}</el-menu-item>
+          <el-menu-item index="6-4">{{ $t('project.p_left.493992-22') }}</el-menu-item>
         </el-sub-menu>
       </el-menu>
     </el-row>

@@ -13,7 +13,7 @@
       </el-col>
       <el-col :span="16" style="display: flex; align-items: center; flex-wrap: wrap">
         <el-row style="width: 100%">
-          <el-text style="font-weight: bold">灵犀物联</el-text>
+          <el-text style="font-weight: bold">{{ $t('workspace.w_left.202501-0') }}</el-text>
         </el-row>
         <el-row style="width: 100%">
           <el-text size="small">Internet of Things</el-text>
@@ -30,21 +30,21 @@
             iconName="icon-home"
             style="width: 20px; height: 20px; margin-right: 10px"
           />
-          首页
+          {{ $t('workspace.w_left.202501-1') }}
         </el-menu-item>
         <el-menu-item index="2">
           <el-icon-svg
             iconName="icon-project"
             style="width: 20px; height: 20px; margin-right: 10px"
           />
-          我的工程
+          {{ $t('workspace.w_left.202501-2') }}
         </el-menu-item>
         <el-menu-item index="3">
           <el-icon-svg
             iconName="icon-design"
             style="width: 20px; height: 20px; margin-right: 10px"
           />
-          我的设计
+          {{ $t('workspace.w_left.202501-3') }}
         </el-menu-item>
         <!-- <el-menu-item index="4">
                 <el-icon-svg
@@ -59,7 +59,7 @@
             iconName="icon-storage"
             style="width: 20px; height: 20px; margin-right: 10px"
           />
-          本地仓库
+          {{ $t('workspace.w_left.202501-4') }}
         </el-menu-item>
       </el-menu>
     </el-row>
@@ -81,7 +81,7 @@
       "
     >
       <el-icon-svg iconName="icon-warehouse"> </el-icon-svg>
-      灵犀云仓（352/678242）
+      {{ $t('workspace.w_left.202501-5') }}
     </el-row>
     <el-row style="width: 100%">
       <el-row style="width: 100%">
@@ -89,12 +89,12 @@
           style="width: 20px; height: 20px; margin-left: 10px"
           iconName="icon-member"
         />
-        <el-text style="font-size: 14px; color: #999999"> 社区开源版 </el-text>
+        <el-text style="font-size: 14px; color: #999999"> {{ $t('workspace.w_left.202501-6') }} </el-text>
       </el-row>
       <el-progress :percentage="40" style="width: 100%; margin-left: 10px" />
       <el-row style="width: 100%">
         <el-text style="font-size: 12px; color: #999999; margin-left: 10px">
-          已使用 2个，剩余 3个 空闲
+          {{ $t('workspace.w_left.202501-7') }}
         </el-text>
       </el-row>
     </el-row>
