@@ -64,9 +64,11 @@
 import projectLeft from "@/views/project/p_left.vue";
 import projectMain from "@/views/project/p_main.vue";
 import { ref } from "vue";
+import { useI18n} from 'vue-i18n';
+const { t } = useI18n();
 
-const segvalue = ref(this.$t('project.index.493980-7'));
-const segoptions = [this.$t('project.index.493980-7'), this.$t('project.index.493980-8'), this.$t('project.index.493980-9'), "Lambda 3"];
+const segvalue = ref(t('project.index.493980-7'));
+const segoptions = [t('project.index.493980-7'), t('project.index.493980-8'), t('project.index.493980-9'), "Lambda 3"];
 const rightaside = ref();
 const popoverVisible = ref(0);
 popoverVisible.value = false;
