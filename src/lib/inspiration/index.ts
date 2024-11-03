@@ -1,0 +1,1 @@
+export { Inspiration } from './inspiration';

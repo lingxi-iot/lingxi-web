@@ -1,0 +1,35 @@
+{
+  "name": "lingxi",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "canvas2svg": "^1.0.16",
+    "element-plus": "^2.8.3",
+    "konva": "^9.3.15",
+    "lodash-es": "^4.17.21",
+    "mitt": "^3.0.1",
+    "uuid": "^10.0.0",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.5",
+    "vuex": "^4.0.2",
+    "y-websocket": "^2.0.4",
+    "yjs": "^13.6.20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "@vue/babel-plugin-jsx": "^1.2.5",
+    "sass-embedded": "^1.79.3",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  }
+}
