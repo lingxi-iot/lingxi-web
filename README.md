@@ -57,8 +57,8 @@ npm run dev
 	"uncheckMissKeys": [],
 	"isSingleQuote": true,
 	"isOnlineTrans": true,
-	"baiduAppid": "改为你自己申请的百度开发者账号appid",
-	"baiduSecrectKey": "改为你自己申请的百度开发者账号SecrectKey"
+	"baiduAppid": "Change to the Baidu developer account appid you applied for yourself",
+	"baiduSecrectKey": "Change to the Baidu developer account SecrectKey that you applied for yourself"
 }
 ```
 
