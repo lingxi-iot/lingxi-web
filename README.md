@@ -31,7 +31,8 @@ npm run dev
 
 1. search 'Du-i18N' in extensions
 2. install
-3. edit 'du-i18n.config.json' file in root directory
+
+### 2.edit 'du-i18n.config.json' file in root directory
 ```json
     {
 	"quoteKeys": [
