@@ -57,7 +57,7 @@ npm run dev
 	"isSingleQuote": true,
 	"isOnlineTrans": true,
 	"baiduAppid": "改为你自己申请的百度开发者账号appid",
-	"baiduSecrectKey": "改为你自己申请的百度开发者账号SecrectKey""
+	"baiduSecrectKey": "改为你自己申请的百度开发者账号SecrectKey"
 }
 ```
 
