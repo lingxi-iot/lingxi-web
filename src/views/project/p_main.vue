@@ -1,9 +1,9 @@
 <template>
   <div class="p-main">
-    <el-row style="height: 50px; width: 100%; font-size: 24pt; padding-left: 20px"
+    <!-- <el-row style="height: 50px; width: 100%; font-size: 24pt; padding-left: 20px"
       >{{ $t('project.p_main.493991-0') }}</el-row
     >
-    <el-divider />
+    <el-divider /> -->
     <el-row style="width: 100%; height: 100px">
       <el-card
         class="newcard"
