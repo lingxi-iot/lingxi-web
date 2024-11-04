@@ -1,12 +1,12 @@
 <template>
   <div>
     <el-tabs v-model="activeName" class="demo-tabs">
-      <el-tab-pane label="概述" name="first" style="padding: 10px">
+      <el-tab-pane :label="$t('design.design_product.9142511-0')" name="first" style="padding: 10px">
         <designbaseinfo></designbaseinfo>
       </el-tab-pane>
-      <el-tab-pane label="属性" name="second">插件</el-tab-pane>
-      <el-tab-pane label="方法" name="three">方法</el-tab-pane>
-      <el-tab-pane label="事件" name="four">事件</el-tab-pane>
+      <el-tab-pane :label="$t('design.design_product.9142511-1')" name="second">{{ $t('design.design_product.9142511-2') }}</el-tab-pane>
+      <el-tab-pane :label="$t('design.design_product.9142511-3')" name="three">{{ $t('design.design_product.9142511-3') }}</el-tab-pane>
+      <el-tab-pane :label="$t('design.design_product.9142511-4')" name="four">{{ $t('design.design_product.9142511-4') }}</el-tab-pane>
     </el-tabs>
   </div>
 </template>

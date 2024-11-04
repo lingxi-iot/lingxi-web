@@ -1,0 +1,16 @@
+{
+	"zh": {
+		"design.design_baseinfo.9142515-0": "产品名称",
+		"design.design_baseinfo.9142515-1": "请输入产品名称",
+		"design.design_baseinfo.9142515-2": "产品编码",
+		"design.design_baseinfo.9142515-3": "产品型号",
+		"design.design_baseinfo.9142515-4": "生产厂家"
+	},
+	"en": {
+		"design.design_baseinfo.9142515-0": "Product Name",
+		"design.design_baseinfo.9142515-1": "Please enter the product name",
+		"design.design_baseinfo.9142515-2": "Product code",
+		"design.design_baseinfo.9142515-3": "Product model",
+		"design.design_baseinfo.9142515-4": "Manufacturer"
+	}
+}

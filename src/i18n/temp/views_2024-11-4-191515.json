@@ -1,0 +1,28 @@
+{
+	"zh": {
+		"design.design_model.9142512-0": "上行事件",
+		"design.design_model.9142512-1": "下行指令",
+		"design.design_model.9142512-2": "基本信息",
+		"design.design_model.9142512-3": "大华门禁",
+		"design.design_model.9142512-4": "海康门禁",
+		"design.design_model.9142512-5": "属性",
+		"design.design_model.9142512-6": "方法",
+		"design.design_model.9142512-7": "事件",
+		"design.design_model.9142512-8": "连接器",
+		"design.design_model.9142512-9": "编码器",
+		"design.design_model.9142512-10": "存储"
+	},
+	"en": {
+		"design.design_model.9142512-0": "Upward events",
+		"design.design_model.9142512-1": "Downward command",
+		"design.design_model.9142512-2": "essential information",
+		"design.design_model.9142512-3": "Dahua Access Control",
+		"design.design_model.9142512-4": "Hikvision access control",
+		"design.design_model.9142512-5": "attribute",
+		"design.design_model.9142512-6": "method",
+		"design.design_model.9142512-7": "event",
+		"design.design_model.9142512-8": "Connector",
+		"design.design_model.9142512-9": "encoder",
+		"design.design_model.9142512-10": "storage"
+	}
+}

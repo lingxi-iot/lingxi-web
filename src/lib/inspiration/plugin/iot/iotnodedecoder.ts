@@ -1,3 +1,4 @@
+import i18n from "../../../../i18n/i18n";
 import { RenderContext } from "../../context";
 import { BasePluginInfo } from "./baseplugin";
 import { IotNode, IotNodeConfig, IotNodeDefine, IotNodeType } from "./iotnode";
@@ -17,7 +18,7 @@ export class IotNodeDecoder extends IotNode {
         
         var pluginInfo:BasePluginInfo ={
             name: 'iotDecoder',
-            description:'解码器',
+            description:i18n.global.t('iot.iotnodedecoder.087345-0'),
              icon: '/resources/svg/decoder.svg',
              type: 'iotNode',
              version: '1.0.0',
@@ -33,10 +34,10 @@ export class IotNodeDecoder extends IotNode {
             y: y,
             isBegin: true,
             isEnd: true,
-            action: '定义解码器',
+            action: i18n.global.t('iot.iotnodedecoder.087345-1'),
             nodeType: IotNodeType.Decoder,
             isMuti: true,
-            mutiAction: '并行解码器'
+            mutiAction: i18n.global.t('iot.iotnodedecoder.087345-2')
         };
         super(context, pluginInfo, nodeConfig);
         this.data=data;

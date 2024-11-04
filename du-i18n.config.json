@@ -2,7 +2,7 @@
 	"quoteKeys": [
 		"this.$t",
 		"$t",
-		"i18n.t"
+		"i18n.global.t"
 	],
 	"defaultLang": "zh",
 	"tempLangs": [
@@ -15,7 +15,7 @@
 	"tempFileName": "",
 	"multiFolders": [
 		"src",
-		"pages"
+		"views"
 	],
 	"prefixKey": null,
 	"uncheckMissKeys": [],

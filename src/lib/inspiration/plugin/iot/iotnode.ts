@@ -7,8 +7,8 @@ import { v4 as uuidv4 } from "uuid";
 
 
 export class IotNodeDefine {
-    static readonly NodeWidth: number = 220;
-    static readonly NodeHeight: number = 100;
+    static readonly NodeWidth: number = 300;
+    static readonly NodeHeight: number = 120;
     static readonly NodeSpace: number = 120;
     static readonly NodeDefaultY: number = 100;
     static readonly anchorSpace: number = 20;

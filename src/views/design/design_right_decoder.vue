@@ -3,7 +3,7 @@
     <el-card style="max-width: 480px" shadow="never">
       <template #header>
         <div>
-          <span>解码器</span>
+          <span>{{ $t('design.design_right_decoder.914259-0') }}</span>
         </div>
       </template>
       <el-radio-group v-model="curDecoder">
@@ -40,15 +40,15 @@ export default {
       decoder: [
         {
           value: "heartbeat",
-          label: "设备心跳",
+          label: this.$t('design.design_right_decoder.914259-1'),
         },
         {
           value: "openremote",
-          label: "远程开门失败告警",
+          label: this.$t('design.design_right_decoder.914259-2'),
         },
         {
           value: "pass",
-          label: "人员通行记录上报",
+          label: this.$t('design.design_right_decoder.914259-3'),
         },
       ],
     };

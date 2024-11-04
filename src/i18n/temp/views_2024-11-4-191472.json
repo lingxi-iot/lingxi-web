@@ -1,0 +1,14 @@
+{
+	"zh": {
+		"design.design_right_decoder.914259-0": "解码器",
+		"design.design_right_decoder.914259-1": "设备心跳",
+		"design.design_right_decoder.914259-2": "远程开门失败告警",
+		"design.design_right_decoder.914259-3": "人员通行记录上报"
+	},
+	"en": {
+		"design.design_right_decoder.914259-0": "decoder",
+		"design.design_right_decoder.914259-1": "Device heartbeat",
+		"design.design_right_decoder.914259-2": "Remote door opening failure alarm",
+		"design.design_right_decoder.914259-3": "Report of personnel access records"
+	}
+}

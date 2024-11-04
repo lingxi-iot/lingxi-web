@@ -41,6 +41,8 @@ import designcanvs from "./design_canvs.vue";
 import designright from "./design_right.vue";
 import { getCurrentInstance } from "vue";
 import { ElNotification } from "element-plus";
+import { ElMessage, ElMessageBox } from 'element-plus'
+import { onBeforeUnmount } from 'vue';
 
 export default {
   name: "designhome",
@@ -53,6 +55,7 @@ export default {
   data() {
     return {
       msg: "Welcome to Your Vue.js App",
+      cacheData: false
     };
   },
   mounted() {
@@ -68,6 +71,35 @@ export default {
         //   type: "success",
         // });
       });
+    }
+  },
+  onBeforeUnmount(){
+    console.log('组件即将卸载，防止刷新');
+  },
+  beforeRouteLeave(to, from, next) {
+    // 在路由离开时判断是否需要缓存数据
+    if (this.cacheData) {
+      // 如果去往特定页面，则缓存数据
+      
+      next();
+    } else {
+      // 否则不缓存数据
+      console.log('Leaving page');
+    ElMessageBox.confirm(
+    '该设计尚未保存，点击确定后将丢失所设计数据. 是否继续?',
+    '提示',
+    {
+      confirmButtonText: '确定',
+      cancelButtonText: '取消',
+      type: 'warning',
+    }
+  ).then(() => {
+      this.cacheData = true;
+      next();
+    }).catch(() => {
+      this.cacheData = false;
+      next(false);
+    });
     }
   },
   setup() {

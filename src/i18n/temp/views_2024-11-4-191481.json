@@ -1,0 +1,16 @@
+{
+	"zh": {
+		"design.design_right_device.914230-0": "接入方式",
+		"design.design_right_device.914230-1": "设备直连",
+		"design.design_right_device.914230-2": "网关/子设备",
+		"design.design_right_device.914230-3": "平台/设备",
+		"design.design_right_device.914230-4": "SDK泛链接"
+	},
+	"en": {
+		"design.design_right_device.914230-0": "Access method",
+		"design.design_right_device.914230-1": "Device direct connection",
+		"design.design_right_device.914230-2": "Gateway/Sub device",
+		"design.design_right_device.914230-3": "Platform/Equipment",
+		"design.design_right_device.914230-4": "SDK Universal Linking"
+	}
+}

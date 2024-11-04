@@ -5,7 +5,7 @@
         <projectLeft />
       </el-aside>
       <el-main class="maincss">
-      <el-tabs>
+      <el-tabs v-model="activeName" @tab-click="handleClick">
         <el-tab-pane :label="$t('project.index.231767-0')" name="first">
            <projectMain></projectMain>
         </el-tab-pane>
@@ -22,6 +22,7 @@
 import projectLeft from "@/views/project/p_left.vue";
 import projectMain from "@/views/project/p_main.vue";
 import aidialog from "./aidialog.vue";
+const activeName = ref("second");
 import { ref } from "vue";
 import { useI18n} from 'vue-i18n';
 const { t } = useI18n();

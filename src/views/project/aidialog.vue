@@ -34,7 +34,7 @@
                 </el-row></el-col
               >
             </el-row>
-            <el-row style="height: 100px"></el-row>
+            <el-row style="height: 50px"></el-row>
             <el-row style="width: 100%;">
               <!-- <el-affix position="bottom" :offset="50"> -->
                 <el-input :placeholder="$t('project.index.493980-6')" style="height: 100px; width: 100%"

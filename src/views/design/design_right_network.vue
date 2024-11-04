@@ -3,7 +3,7 @@
     <el-card style="max-width: 480px" shadow="never">
       <template #header>
         <div>
-          <span>网络通道</span>
+          <span>{{ $t('design.design_right_network.914257-0') }}</span>
         </div>
       </template>
       <el-radio-group v-model="curNetwork">
@@ -75,7 +75,7 @@ export default {
         },
         {
           value: "Other",
-          label: "其他",
+          label: this.$t('design.design_right_network.914257-1'),
         },
       ],
     };

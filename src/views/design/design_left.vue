@@ -1,10 +1,10 @@
 <template>
   <div>
     <el-tabs v-model="activeName" class="demo-tabs">
-      <el-tab-pane label="产品" name="first">
+      <el-tab-pane :label="$t('design.design_left.9142513-0')" name="first">
         <desginmodel></desginmodel>
       </el-tab-pane>
-      <el-tab-pane label="插件" name="second">插件</el-tab-pane>
+      <el-tab-pane :label="$t('design.design_left.9142513-1')" name="second">{{ $t('design.design_left.9142513-1') }}</el-tab-pane>
     </el-tabs>
   </div>
 </template>

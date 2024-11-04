@@ -1,0 +1,10 @@
+{
+	"zh": {
+		"iot.iotnodeeventbus.820831-0": "事件总线",
+		"iot.iotnodeeventbus.820831-1": "定义过滤规则"
+	},
+	"en": {
+		"iot.iotnodeeventbus.820831-0": "Event bus",
+		"iot.iotnodeeventbus.820831-1": "Define filtering rules"
+	}
+}

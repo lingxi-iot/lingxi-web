@@ -1,16 +1,16 @@
 <template>
     <el-form label-position="top" >
-    <el-form-item label="产品名称">
-      <el-input placeholder="请输入产品名称"/>
+    <el-form-item :label="$t('design.design_baseinfo.9142515-0')">
+      <el-input :placeholder="$t('design.design_baseinfo.9142515-1')"/>
     </el-form-item>
-    <el-form-item label="产品编码" >
-      <el-input placeholder="请输入产品名称"/>
+    <el-form-item :label="$t('design.design_baseinfo.9142515-2')" >
+      <el-input :placeholder="$t('design.design_baseinfo.9142515-1')"/>
     </el-form-item>
-    <el-form-item label="产品型号">
-      <el-input placeholder="请输入产品名称"/>
+    <el-form-item :label="$t('design.design_baseinfo.9142515-3')">
+      <el-input :placeholder="$t('design.design_baseinfo.9142515-1')"/>
     </el-form-item>
-    <el-form-item label="生产厂家">
-      <el-input placeholder="请输入产品名称"/>
+    <el-form-item :label="$t('design.design_baseinfo.9142515-4')">
+      <el-input :placeholder="$t('design.design_baseinfo.9142515-1')"/>
     </el-form-item>
     </el-form>
 </template>

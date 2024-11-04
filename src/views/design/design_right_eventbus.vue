@@ -3,7 +3,7 @@
     <el-card style="max-width: 480px" shadow="never">
       <template #header>
         <div>
-          <span>事件总线</span>
+          <span>{{ $t('design.design_right_eventbus.914258-0') }}</span>
         </div>
       </template>
       <el-radio-group v-model="curEventbus">
@@ -40,43 +40,43 @@ export default {
       eventbus: [
         {
           value: "MQTT",
-          label: "MQTT过滤器",
+          label: this.$t('design.design_right_eventbus.914258-1'),
         },
         {
           value: "OPC",
-          label: "OPC过滤器",
+          label: this.$t('design.design_right_eventbus.914258-2'),
         },
         {
           value: "Modbus",
-          label: "Modbus过滤器",
+          label: this.$t('design.design_right_eventbus.914258-3'),
         },
         {
           value: "TCP",
-          label: "TCP过滤器",
+          label: this.$t('design.design_right_eventbus.914258-4'),
         },
         {
           value: "HTTP",
-          label: "HTTP过滤器",
+          label: this.$t('design.design_right_eventbus.914258-5'),
         },
         {
           value: "JT808",
-          label: "JT808过滤器",
+          label: this.$t('design.design_right_eventbus.914258-6'),
         },
         {
           value: "RocketMQ",
-          label: "RocketMQ过滤器",
+          label: this.$t('design.design_right_eventbus.914258-7'),
         },
         {
           value: "GB28181",
-          label: "GB28181过滤器",
+          label: this.$t('design.design_right_eventbus.914258-8'),
         },
         {
           value: "STOMP",
-          label: "STOMP过滤器",
+          label: this.$t('design.design_right_eventbus.914258-9'),
         },
         {
           value: "Other",
-          label: "其他过滤器",
+          label: this.$t('design.design_right_eventbus.914258-10'),
         },
       ],
     };

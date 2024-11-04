@@ -1,3 +1,4 @@
+import i18n from "../../../../i18n/i18n";
 import { RenderContext } from "../../context";
 import { BasePluginInfo } from "./baseplugin";
 import { IotNode, IotNodeConfig, IotNodeDefine, IotNodeType } from "./iotnode";
@@ -25,7 +26,7 @@ export class IotNodeStorage extends IotNode {
         
         var pluginInfo:BasePluginInfo ={
             name: 'iotStorage',
-            description:'存储介质',
+            description:i18n.global.t('iot.iotnodestorage.067072-0'),
              icon: '/resources/svg/storage.svg',
              type: 'iotNode',
              version: '1.0.0',
@@ -41,7 +42,7 @@ export class IotNodeStorage extends IotNode {
             y: y,
             isBegin: true,
             isEnd: true,
-            action: '选择存储介质',
+            action: i18n.global.t('iot.iotnodestorage.067072-1'),
             nodeType: IotNodeType.Storage,
             isMuti: false,
         };

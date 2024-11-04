@@ -1,4 +1,4 @@
-import { createI18n } from "vue-i18n";
+import { createI18n,useI18n } from "vue-i18n";
 import zh from "./locale/zh.json";
 import en from "./locale/en.json";
 
@@ -13,5 +13,8 @@ const i18n = createI18n({
     en
   }
 })
+
+
+
 
 export default i18n;

@@ -1,0 +1,28 @@
+{
+	"zh": {
+		"design.design_right_eventbus.914258-0": "事件总线",
+		"design.design_right_eventbus.914258-1": "MQTT过滤器",
+		"design.design_right_eventbus.914258-2": "OPC过滤器",
+		"design.design_right_eventbus.914258-3": "Modbus过滤器",
+		"design.design_right_eventbus.914258-4": "TCP过滤器",
+		"design.design_right_eventbus.914258-5": "HTTP过滤器",
+		"design.design_right_eventbus.914258-6": "JT808过滤器",
+		"design.design_right_eventbus.914258-7": "RocketMQ过滤器",
+		"design.design_right_eventbus.914258-8": "GB28181过滤器",
+		"design.design_right_eventbus.914258-9": "STOMP过滤器",
+		"design.design_right_eventbus.914258-10": "其他过滤器"
+	},
+	"en": {
+		"design.design_right_eventbus.914258-0": "Event bus",
+		"design.design_right_eventbus.914258-1": "MQTT filter",
+		"design.design_right_eventbus.914258-2": "OPC filter",
+		"design.design_right_eventbus.914258-3": "Modbus Filter",
+		"design.design_right_eventbus.914258-4": "TCP filter",
+		"design.design_right_eventbus.914258-5": "HTTP Filter",
+		"design.design_right_eventbus.914258-6": "JT808 filter",
+		"design.design_right_eventbus.914258-7": "RocketMQ filter",
+		"design.design_right_eventbus.914258-8": "GB28181 Filter",
+		"design.design_right_eventbus.914258-9": "STOMP filter",
+		"design.design_right_eventbus.914258-10": "Other filters"
+	}
+}

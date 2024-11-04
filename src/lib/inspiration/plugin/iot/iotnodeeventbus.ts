@@ -1,3 +1,4 @@
+import i18n from "../../../../i18n/i18n";
 import { RenderContext } from "../../context";
 import { BasePluginInfo } from "./baseplugin";
 import { IotNode, IotNodeConfig, IotNodeDefine, IotNodeType } from "./iotnode";
@@ -23,7 +24,7 @@ export class IotNodeEventbus extends IotNode {
         
         var pluginInfo:BasePluginInfo ={
             name: 'iotEventbus',
-            description:'事件总线',
+            description:i18n.global.t('iot.iotnodeeventbus.820831-0'),
              icon: '/resources/svg/eventbus.svg',
              type: 'iotNode',
              version: '1.0.0',
@@ -39,7 +40,7 @@ export class IotNodeEventbus extends IotNode {
             y: y,
             isBegin: true,
             isEnd: true,
-            action: '定义过滤规则',
+            action: i18n.global.t('iot.iotnodeeventbus.820831-1'),
             nodeType: IotNodeType.EventBus,
             isMuti: false,
         };

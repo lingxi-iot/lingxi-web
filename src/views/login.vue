@@ -24,7 +24,7 @@
               style="width: 100%; height: 50px"
               prefix-icon="User"
               :placeholder="$t('views.login.332421-0')"
-            />
+            /> 
           </el-form-item>
           <el-form-item label="" label-position="top">
             <el-input
@@ -57,7 +57,7 @@
 </template>
 <script lang="ts" setup>
 import { useRouter } from "vue-router";
- import { useI18n } from "vue-i18n";
+import { useI18n } from "vue-i18n";
 
  const { t } =useI18n();
 

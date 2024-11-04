@@ -27,13 +27,13 @@
             <el-icon>
               <Check />
             </el-icon>
-            <span>上行事件</span>
+            <span>{{ $t('design.design_model.9142512-0') }}</span>
           </template>
         </el-menu-item>
         <el-menu-item index="2" style="height: 30px">
           <template #title>
             <el-icon> </el-icon>
-            <span>下行指令</span>
+            <span>{{ $t('design.design_model.9142512-1') }}</span>
           </template>
         </el-menu-item>
       </el-menu>
@@ -67,113 +67,113 @@ export default {
       treeData: [
         {
           id: "1",
-          label: "基本信息",
+          label: this.$t('design.design_model.9142512-2'),
           leaf: false,
           children: [
             {
               id: "sss",
-              label: "大华门禁",
+              label: this.$t('design.design_model.9142512-3'),
               leaf: false,
             },
             {
               id: "sssss",
-              label: "海康门禁",
+              label: this.$t('design.design_model.9142512-4'),
             },
           ],
         },
         {
           id: "2",
-          label: "属性",
+          label: this.$t('design.design_model.9142512-5'),
           leaf: false,
           children: [
             {
               id: "sss",
-              label: "大华门禁",
+              label: this.$t('design.design_model.9142512-3'),
               leaf: false,
             },
             {
               id: "sssss",
-              label: "海康门禁",
+              label: this.$t('design.design_model.9142512-4'),
             },
           ],
         },
         {
           id: "3",
-          label: "方法",
+          label: this.$t('design.design_model.9142512-6'),
           leaf: false,
           children: [
             {
               id: "sss",
-              label: "大华门禁",
+              label: this.$t('design.design_model.9142512-3'),
               leaf: false,
             },
             {
               id: "sssss",
-              label: "海康门禁",
+              label: this.$t('design.design_model.9142512-4'),
             },
           ],
         },
         {
           id: "4",
-          label: "事件",
+          label: this.$t('design.design_model.9142512-7'),
           leaf: false,
           children: [
             {
               id: "sss",
-              label: "大华门禁",
+              label: this.$t('design.design_model.9142512-3'),
               leaf: false,
             },
             {
               id: "sssss",
-              label: "海康门禁",
+              label: this.$t('design.design_model.9142512-4'),
             },
           ],
         },
         {
           id: "5",
-          label: "连接器",
+          label: this.$t('design.design_model.9142512-8'),
           leaf: false,
           children: [
             {
               id: "sss",
-              label: "大华门禁",
+              label: this.$t('design.design_model.9142512-3'),
               leaf: false,
             },
             {
               id: "sssss",
-              label: "海康门禁",
+              label: this.$t('design.design_model.9142512-4'),
             },
           ],
         },
         {
           id: "6",
-          label: "编码器",
+          label: this.$t('design.design_model.9142512-9'),
           leaf: false,
           children: [
             {
               id: "sss",
-              label: "大华门禁",
+              label: this.$t('design.design_model.9142512-3'),
               leaf: false,
             },
             {
               id: "sssss",
-              label: "海康门禁",
+              label: this.$t('design.design_model.9142512-4'),
             },
           ],
         },
         {
           id: "7",
-          label: "存储",
+          label: this.$t('design.design_model.9142512-10'),
           leaf: false,
           children: [
             {
               id: "sss",
-              label: "大华门禁",
+              label: this.$t('design.design_model.9142512-3'),
               leaf: false,
             },
             {
               id: "sssss",
-              label: "海康门禁",
+              label: this.$t('design.design_model.9142512-4'),
             },
           ],
         },

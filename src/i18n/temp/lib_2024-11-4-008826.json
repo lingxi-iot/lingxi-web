@@ -1,0 +1,12 @@
+{
+	"zh": {
+		"iot.iotnodedecoder.087345-0": "解码器",
+		"iot.iotnodedecoder.087345-1": "定义解码器",
+		"iot.iotnodedecoder.087345-2": "并行解码器"
+	},
+	"en": {
+		"iot.iotnodedecoder.087345-0": "decoder",
+		"iot.iotnodedecoder.087345-1": "Define decoder",
+		"iot.iotnodedecoder.087345-2": "Parallel decoder"
+	}
+}

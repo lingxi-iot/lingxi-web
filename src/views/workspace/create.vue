@@ -126,7 +126,7 @@
       <el-tab-pane :label="$t('workspace.create.202500-27')" class="guide" name="first">
         <el-card class="dialogCard" shadow="never" @click="newProduct()">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>
-          <el-text width="100%">产&nbsp;品</el-text>
+          <el-text width="100%">{{ $t('workspace.create.308985-0') }}</el-text>
         </el-card>
         <el-card class="dialogCard" shadow="never">
           <el-image style="height: 50px; width: 50px" :src="slogo1"> </el-image>

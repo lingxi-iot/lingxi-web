@@ -1,0 +1,14 @@
+{
+	"zh": {
+		"design.design_right_productevent.914256-0": "产品事件",
+		"design.design_right_productevent.914256-1": "设备心跳",
+		"design.design_right_productevent.914256-2": "远程开门失败告警",
+		"design.design_right_productevent.914256-3": "人员通行记录上报"
+	},
+	"en": {
+		"design.design_right_productevent.914256-0": "Product Events",
+		"design.design_right_productevent.914256-1": "Device heartbeat",
+		"design.design_right_productevent.914256-2": "Remote door opening failure alarm",
+		"design.design_right_productevent.914256-3": "Report of personnel access records"
+	}
+}

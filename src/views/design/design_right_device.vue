@@ -3,7 +3,7 @@
     <el-card style="max-width: 480px" shadow="never">
       <template #header>
         <div class="card-header">
-          <span>接入方式</span>
+          <span>{{ $t('design.design_right_device.914230-0') }}</span>
         </div>
       </template>
       <el-radio-group v-model="linkmodel">
@@ -29,19 +29,19 @@ export default {
       linkmodel: "",
       jointype: [
         {
-          label: "设备直连",
+          label: this.$t('design.design_right_device.914230-1'),
           value: "Direct",
         },
         {
-          label: "网关/子设备",
+          label: this.$t('design.design_right_device.914230-2'),
           value: "GateWay",
         },
         {
-          label: "平台/设备",
+          label: this.$t('design.design_right_device.914230-3'),
           value: "Platform",
         },
         {
-          label: "SDK泛链接",
+          label: this.$t('design.design_right_device.914230-4'),
           value: "SDK",
         },
       ],

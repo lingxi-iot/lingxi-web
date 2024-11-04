@@ -1,0 +1,12 @@
+{
+	"zh": {
+		"iot.iotnodeproductevent.018739-0": "产品事件",
+		"iot.iotnodeproductevent.018739-1": "定义产品事件",
+		"iot.iotnodeproductevent.018739-2": "并行产品事件"
+	},
+	"en": {
+		"iot.iotnodeproductevent.018739-0": "Product Events",
+		"iot.iotnodeproductevent.018739-1": "Define product events",
+		"iot.iotnodeproductevent.018739-2": "Parallel product events"
+	}
+}

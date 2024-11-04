@@ -10,7 +10,7 @@
         <el-icon>
           <Fold />
         </el-icon>
-        &nbsp; &nbsp;产品名称 &nbsp;
+        <el-text style="margin-left:10px;margin-right:10px">{{ $t('design.design_top.059603-0') }}</el-text>
         <el-icon>
           <EditPen />
         </el-icon>
@@ -36,7 +36,7 @@
             style="width: 100px; border: 0px"
             suffix-icon="CaretBottom"
           >
-            <el-option value="fit" label="自适应大小"></el-option>
+            <el-option value="fit" :label="$t('design.design_top.914254-1')"></el-option>
             <el-option value="100%" label="100%"></el-option>
             <el-option value="80%" label="80%"></el-option>
             <el-option value="75%" label="75%"></el-option>

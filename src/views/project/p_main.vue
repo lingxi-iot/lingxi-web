@@ -218,6 +218,9 @@
   </div>
 </template>
 <style scoped>
+.p-main {
+  margin-top: 20px;
+}
 ::v-deep .dialogSenceCss .el-dialog {
   display: flex;
   flex-wrap: nowrap;

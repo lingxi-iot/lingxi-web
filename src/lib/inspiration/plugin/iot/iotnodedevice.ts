@@ -1,12 +1,15 @@
+import i18n from '../../../../i18n/i18n.ts'
 import { RenderContext } from "../../context";
 import { BasePluginInfo } from "./baseplugin";
 import { IotNode, IotNodeConfig, IotNodeDefine, IotNodeType } from "./iotnode";
 import { IotNodeLink } from "./iotnodelink";
 
+
+
 export interface DeviceData{
     id:string;
     joinType:JoinType;
-    
+     
 }
 export enum JoinType{
     Direct='Direct',
@@ -17,12 +20,11 @@ export enum JoinType{
 export class IotNodeDevice extends IotNode {
     context: RenderContext;
     data :DeviceData;
-    
     constructor(context: RenderContext, data:DeviceData) {
         
         var pluginInfo:BasePluginInfo ={
             name: 'iotDevice',
-            description:'物理设备',
+            description:  i18n.global.t('iot.iotnodedevice.775609-0'),
              icon: '/resources/svg/box.svg',
              type: 'iotNode',
              version: '1.0.0',
@@ -38,7 +40,7 @@ export class IotNodeDevice extends IotNode {
             y: y,
             isBegin: true,
             isEnd: true,
-            action: '选择接入方式',
+            action: i18n.global.t('iot.iotnodedevice.775609-1'),
             nodeType: IotNodeType.Device,
             isMuti: false,
             //mutiAction: '并行接入方式',
